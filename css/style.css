@@ -1,4 +1,26 @@
 html,
 body {
-    height: 100%
+    height: 100%;
+    background-color: #0d1117;
+    color: #f0f6fc;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+#img {
+    max-width: 220px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.lead {
+    color: #58a6ff;
+}
+
+a.btn-outline-light:hover {
+    background-color: #58a6ff;
+    border-color: #58a6ff;
 }
